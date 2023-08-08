@@ -16,5 +16,18 @@ namespace Ejercicios
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncomprobarForm1_Click(object sender, EventArgs e)
+        {
+            int edad = int.Parse(txtEdadForm1.Text);
+            if (edad >= 18) ;
+            MessageBox.Show("usted es mayor de edad");
+          
+        }
     }
 }
